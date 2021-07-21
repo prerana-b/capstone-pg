@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% if title %}
+            <title>Properties - {{ title }}</title>
+        {% else %}
+            <title>Find Your PG</title>
+        {% endif %}
+    </head>
+    <body>
+        {% block content %}{% endblock %}
+    </body>
+</html>
